@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray rcandle.pov`; then
+	xdg-open rcandle.png
+fi

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray rdesk.pov`; then
+	xdg-open rdesk.png
+fi

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray +GDfile rtree.pov`; then
+	xdg-open rtree.png
+fi

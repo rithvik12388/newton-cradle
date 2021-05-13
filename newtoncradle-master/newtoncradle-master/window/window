@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray rwindow.pov`; then
+	xdg-open rwindow.png
+fi

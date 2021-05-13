@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray rpaper.pov`; then
+	xdg-open rpaper.png
+fi

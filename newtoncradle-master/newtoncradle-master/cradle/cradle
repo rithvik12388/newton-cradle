@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray rcradle.pov`; then
+	xdg-open rcradle.png
+fi

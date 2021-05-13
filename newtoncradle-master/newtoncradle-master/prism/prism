@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray rprism.pov`; then
+	xdg-open rprism.png
+fi

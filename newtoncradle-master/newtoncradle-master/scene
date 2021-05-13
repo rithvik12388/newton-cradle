@@ -1,0 +1,5 @@
+#! /bin/bash
+
+if `povray scene.pov`; then
+	xdg-open scene.png
+fi
